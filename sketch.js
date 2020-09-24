@@ -123,8 +123,8 @@ function mouseDragged(){
 function mouseReleased(){
   slingShot.fly();
 }
-function keyPressed(){
-  if(keyCode === 32){
+  function keyPressed(){
+    if(keycode === 32){
       slingShot.attach(this.polygon);
+    }
   }
-}
